@@ -1,14 +1,19 @@
-# yak-n.etu.edu.tr_project
-481 proje web sitesi ve uygulama reposu
-kullanılacak databasenin kodu eklenmiş durumda;
-start atmadan önce src-config kısmındaki istenileni yapın;
-ardından bilgisayarınızda node.js varsa çalışması lazım alttaki kısımla;
+📌 Proje Açıklaması
+EduConnect, öğrencilerin günlük akademik ve sosyal yaşamlarını kolaylaştırmayı amaçlayan bir öğrenci yönetim sistemidir. Platform; öğrenci kartı yönetimi, ders programı görüntüleme, arkadaş yönetimi, günlük menü takibi gibi çeşitli özellikler sunar.
 
-npm run start yazdığınızda proje başlıyo,
-ctrl c ile çıkaabiliyosunuz
+🚀 Özellikler
+🔹 Kullanıcı Kayıt & Giriş: Kullanıcılar hesap oluşturabilir ve giriş yapabilir.
+🔹 Öğrenci Kartı Yönetimi: Kullanıcılar öğrenci kartlarındaki bakiyeyi görüntüleyebilir ve yükleme yapabilir.
+🔹 Ders Programı: Kullanıcılar ders programlarını görüntüleyebilir.
+🔹 Arkadaş Yönetimi: Kullanıcılar arkadaş ekleyebilir veya silebilir.
+🔹 Boş Sınıf Bilgisi: Kullanıcılar boş sınıfları görebilir.
+🔹 Günlük Menü: Kullanıcılar yemekhane menüsünü inceleyebilir.
+🛠 Teknolojiler
+Frontend:
+React.js
+React Router
+Material UI / Tailwind CSS
 
-src/routes: API yolları
-src/controllers: İşlevsel işlevleri barındıran dosyalar
-src/models: Veritabanı modeller
-//eger authentication saglanamazsa MySQL workbench'e yandaki command'i gir -> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'user_şifreniz';
-//configde autharization sağlanmazsa
+Backend:
+Node.js
+MySQL
